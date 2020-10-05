@@ -3,7 +3,7 @@ const app = express()
 
 
 app.get('/', (req, res) => {
-    res.send('Olá Turma ESII')
+    res.send('Startup for express.js project')
 })
 
 const PORT = 3000
